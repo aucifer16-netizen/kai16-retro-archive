@@ -1,0 +1,108 @@
+[
+  {
+    "id": "gta-vi",
+    "title": "Grand Theft Auto VI",
+    "subtitle": "บทสรุปภาษาไทย 200 หน้า",
+    "platforms": [
+      "PlayStation 5",
+      "Xbox Series X|S"
+    ],
+    "type": "คู่มือ PDF",
+    "format": "PDF · 200 หน้า",
+    "date": "2026-11-21",
+    "images": [
+      "gta.jpg"
+    ],
+    "source": "https://www.facebook.com/permalink.php?story_fbid=pfbid02zrUu7F8PsMxx3bbTZjcStitn7rE6ipnHFKJyBbU3cdjUdmNPcM2dgHvQzhLPwzWtl&id=61593778466354",
+    "download": "https://www.mediafire.com/file/sz59j8d6tf26mng/GTA_VI_Thai_200p.pdf/file",
+    "description": "คู่มือภาษาไทยตั้งแต่บทนำถึงฉากจบ พร้อมชื่อภารกิจภาษาอังกฤษสำหรับค้นเทียบกับหน้าจอเกม ฉบับปรับปรุงเพิ่มเนื้อหาจาก 150 เป็น 200 หน้า",
+    "notes": [
+      "มีสารบัญแบบคลิกได้ รายละเอียดงานเสริมที่พลาดได้ และตัวนับความคืบหน้าสำหรับเก็บ 100%",
+      "คู่มือมีสปอยล์ช่วงท้ายและฉากจบ"
+    ],
+    "credit": "แปล mod by kai16"
+  },
+  {
+    "id": "ningyo-no-rakuin",
+    "title": "Ningyo no Rakuin",
+    "subtitle": "ตราประทับแห่งเงือก",
+    "platforms": [
+      "PlayStation"
+    ],
+    "type": "แพตช์ภาษาไทย",
+    "format": "ตัวติดตั้ง Windows · SLPS-02854",
+    "date": "2026-11-16",
+    "images": [
+      "mermaid.jpg"
+    ],
+    "source": "https://www.facebook.com/permalink.php?story_fbid=pfbid02ppPfKnkXpfyf3MKDZARJT1mn6C9Q8TWJhAj1S3ghpu9aUm5G11CC2zFx5DEFrGNFl&id=61593778466354",
+    "download": "https://www.mediafire.com/file/td9iojinhh17yz7/NingyoNoRakuin_ThaiPatcher.exe/file",
+    "description": "เกมสยองขวัญบน PlayStation แปลจากต้นฉบับญี่ปุ่น พร้อมฟอนต์และโลโก้ภาษาไทย และโปรแกรมสำหรับลงแพตช์",
+    "notes": [
+      "ใช้แผ่นเกมญี่ปุ่นของตัวเอง รหัส SLPS-02854",
+      "เปิดโปรแกรมแพตช์แล้วเลือกไฟล์จากแผ่นต้นฉบับ"
+    ],
+    "credit": "kai16 / AjPed"
+  },
+  {
+    "id": "policenauts",
+    "title": "Policenauts",
+    "subtitle": "สืบสวนไซไฟฉบับภาษาไทย",
+    "platforms": [
+      "PlayStation"
+    ],
+    "type": "แพตช์ภาษาไทย",
+    "format": "v1.0 · ตัวติดตั้ง Windows",
+    "date": "2026-11-15",
+    "images": [
+      "policenauts.jpg",
+      "policenauts-game.jpg"
+    ],
+    "source": "https://www.facebook.com/permalink.php?story_fbid=pfbid0qFjH3GPWUVjAr6rhp52Q1qugkQr4BV3Ux56uv15ZyTeort7VNG1jyRKmq4Va4QPnl&id=61593778466354",
+    "download": "https://www.mediafire.com/file/s8fwgyr5jw4owyo/Policenauts_Thai_Patch_v1.0.exe/file",
+    "description": "เกมผจญภัยสืบสวนไซไฟของ Hideo Kojima แพตช์นี้แปลบทสนทนา เมนู ไอเทมและหน้าบันทึกเกม พร้อมซับไทยในวิดีโอและเสียงพากย์ไทยที่สร้างด้วย AI",
+    "notes": [
+      "ใช้แผ่นญี่ปุ่นทั้งสองแผ่น (SLPS-00215 / SLPS-00216) ในรูปแบบ BIN/CUE",
+      "เลือกแผ่น 1 และ 2 ในตัวติดตั้ง แล้วเปิดไฟล์ CUE ที่ได้ด้วย DuckStation หรือ RetroArch"
+    ],
+    "credit": "แปล mod by kai16"
+  },
+  {
+    "id": "downtown-nekketsu",
+    "title": "Downtown Nekketsu Monogatari",
+    "subtitle": "คุนิโอะดาวน์ทาวน์",
+    "platforms": [
+      "Famicom / NES"
+    ],
+    "type": "แพตช์ภาษาไทย",
+    "format": "ฉบับระหว่างเก็บรายละเอียดตามแหล่งข้อมูล",
+    "images": [
+      "downtown.jpg"
+    ],
+    "source": "https://www.andaplus.com/games/index.php?catid=475&id=5592&view=article",
+    "description": "เกมแอ็กชันเดินลุยบน Famicom แพตช์แปลเมนู ไอเทม และบทสนทนาในเกมเป็นภาษาไทย",
+    "notes": [
+      "ดูข้อมูลการแจกและวิธีติดตั้งจากลิงก์แหล่งข้อมูล"
+    ],
+    "credit": "แปล mod by kai16"
+  },
+  {
+    "id": "kunio-jidaigeki",
+    "title": "Kunio-kun no Jidaigeki",
+    "subtitle": "Downtown Special",
+    "platforms": [
+      "Famicom / NES"
+    ],
+    "type": "แพตช์ภาษาไทย",
+    "format": "IPS · ฉบับทดลองตามแหล่งข้อมูล",
+    "images": [
+      "jidaigeki.jpg"
+    ],
+    "source": "https://www.andaplus.com/games/index.php?catid=491&id=5520&view=article",
+    "description": "คุนิโอะในฉากย้อนยุค แพตช์แปลบทสนทนา เมนู ชื่อไอเทม ท่าพิเศษ และชื่อสถานที่ พร้อมฟอนต์ไทยแบบพิกเซล",
+    "notes": [
+      "ใช้ไฟล์แพตช์ IPS กับ ROM ต้นฉบับเวอร์ชันญี่ปุ่น"
+    ],
+    "credit": "แปล mod by kai16"
+  }
+]
