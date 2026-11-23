@@ -7,7 +7,7 @@ const escape = value => String(value).replace(/[&<>"']/g, character => ({
   '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
 })[character]);
 
-function page(title, content, base = '', script = '') {
+function page(title, content, base = '', script = '', home = base || './') {
   return `<!doctype html>
 <html lang="th">
 <head>
@@ -20,8 +20,8 @@ function page(title, content, base = '', script = '') {
 <body>
 <a class="skip" href="#main">ข้ามไปยังเนื้อหา</a>
 <header class="top"><div class="wrap topline">
-<a class="brand" href="${base || './'}"><b aria-hidden="true">K</b><span>KAI16<span class="dim">.ARCHIVE</span></span></a>
-<nav aria-label="เมนูหลัก"><a href="${base || './'}">คลังเกม</a><a href="${facebook}">Facebook</a></nav>
+<a class="brand" href="${home}"><b aria-hidden="true">K</b><span>KAI16<span class="dim">.ARCHIVE</span></span></a>
+<nav aria-label="เมนูหลัก"><a href="${home}">คลังเกม</a><a href="${facebook}">Facebook</a></nav>
 </div></header>
 <main class="wrap" id="main">${content}</main>
 <footer class="wrap footer"><a href="${facebook}">แปล mod by kai16</a><span>คลังแพตช์และคู่มือเกมภาษาไทย</span></footer>
@@ -41,7 +41,7 @@ function detail(game) {
   const gallery = game.images.map((image, index) => `
 <figure><a href="../../media/${image}" aria-label="เปิดภาพเต็ม ภาพที่ ${index + 1}"><img src="../../media/${image}" alt="${escape(game.title)} ภาพที่ ${index + 1}"></a></figure>`).join('');
   return page(`${game.title} | KAI16.ARCHIVE`, `
-<div class="back"><a href="../../">กลับไปคลังเกม</a></div>
+<div class="back"><a href="../../index.html">กลับไปคลังเกม</a></div>
 <div class="detail-head"><p class="platform">${game.platforms.map(escape).join(' / ')}</p><h1>${escape(game.title)}</h1><p class="detail-subtitle">${escape(game.subtitle)}</p></div>
 <div class="detail-grid">
 <section class="window"><h2>ภาพจากหน้าแจก</h2><div class="gallery">${gallery}</div></section>
@@ -50,7 +50,7 @@ function detail(game) {
 <ul>${game.notes.map(note => `<li>${escape(note)}</li>`).join('')}</ul>
 <div class="actions">${game.download ? `<a class="button primary" href="${escape(game.download)}">${game.type === 'คู่มือ PDF' ? 'ดาวน์โหลดคู่มือ PDF' : 'ดาวน์โหลดแพตช์'}</a>` : ''}
 <a class="button" href="${escape(game.source)}">${game.source.includes('facebook.com') ? 'ดูโพสต์ต้นฉบับ' : 'ดูแหล่งข้อมูลและทางไปหน้าแจก'}</a></div>
-</div></section></div>`, '../../');
+</div></section></div>`, '../../', '', '../../index.html');
 }
 
 const filters = ['ทั้งหมด', ...platforms].map((platform, index) => `<button type="button" data-platform="${index ? escape(platform) : ''}" aria-pressed="${index === 0}">${escape(platform)}</button>`).join('');
