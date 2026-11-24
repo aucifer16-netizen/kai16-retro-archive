@@ -546,5 +546,70 @@
       "ไฟล์แพตช์ไม่รวมเกมต้นฉบับ"
     ],
     "credit": "kai16 / AjPed"
+  },
+  {
+    "id": "nekketsu-kakutou-densetsu",
+    "title": "Nekketsu Kakutou Densetsu",
+    "subtitle": "เลือดร้อน ตำนานนักสู้ · แพตช์ภาษาไทย",
+    "cover": "NEKKETSU KAKUTOU DENSETSU",
+    "platforms": [
+      "Famicom / NES"
+    ],
+    "type": "แพตช์ภาษาไทย",
+    "format": "Windows Patcher · ZIP",
+    "source": "https://www.facebook.com/permalink.php?story_fbid=pfbid02ZdqC5PF1twqT9whk1HdFiWvHJdCDyRkMp2KVFbLAMKak6SegE8n5J4VW2YT8RUmTl&id=61593778466354",
+    "downloads": [
+      {
+        "label": "ดาวน์โหลด Patcher จาก GitHub",
+        "href": "https://raw.githubusercontent.com/aucifer16-netizen/kai16-retro-archive/main/downloads/NekketsuKakutouThaiPatcher-Windows.zip"
+      },
+      {
+        "label": "ดาวน์โหลดไฟล์จาก MediaFire",
+        "href": "https://www.mediafire.com/file/olxzrclisk7d34c/NekketsuKakutouThaiPatcher.exe/file"
+      }
+    ],
+    "description": "เกมต่อสู้แท็กทีม 2 ต่อ 2 ของ Technos บน Famicom ฉบับภาษาไทย; โพสต์ระบุการแปลบทพูด โลโก้ เมนู สถานะ และกติกา",
+    "notes": [
+      "ไฟล์แพตช์ไม่รวม ROM เกมต้นฉบับ"
+    ],
+    "credit": "kai16 / AjPed"
+  },
+  {
+    "id": "ninja-warriors-again",
+    "title": "The Ninja Warriors Again",
+    "subtitle": "แพตช์ภาษาไทยสำหรับ Super Famicom",
+    "cover": "THE NINJA WARRIORS AGAIN",
+    "platforms": [
+      "Super Famicom / SNES"
+    ],
+    "type": "แพตช์ภาษาไทย",
+    "format": "ZIP · Windows Patcher",
+    "source": "https://www.facebook.com/permalink.php?story_fbid=pfbid0R4AKEaY14znJ6QThxM7cXC8REdJMockAngTNdmmdq3Uz1WY6NUjfqWSrr7ZEsCZVl&id=61593778466354",
+    "download": "https://www.mediafire.com/file/du92r40uqiljfmi/Ninja_Warriors_Again_Thai_Patcher.zip/file",
+    "description": "เกมแอ็กชันลุยด่านจาก Taito / Natsume ปี 1994 บน Super Famicom; โพสต์ระบุการแปลฉากเปิดเรื่อง ฉากจบ เมนู และข้อความในเกม",
+    "notes": [
+      "ไฟล์แพตช์ไม่รวม ROM เกมต้นฉบับ"
+    ],
+    "credit": "kai16 / AjPed"
+  },
+  {
+    "id": "aconcagua-thai",
+    "title": "Aconcagua",
+    "subtitle": "แพตช์ภาษาไทยและเสียงไทย · Version 8",
+    "cover": "ACONCAGUA",
+    "platforms": [
+      "PlayStation"
+    ],
+    "type": "แพตช์ภาษาไทย + เสียงไทย",
+    "format": "Windows Patcher · 2 แผ่น",
+    "source": "https://www.facebook.com/permalink.php?story_fbid=pfbid0uXXYd7t8wonbRdztdhgpgbCu1SQekB9PXB3JV4qbx3RisajZP28Uqd2HKPEYZ8UYl&id=61593778466354",
+    "download": "https://www.mediafire.com/file/qzm3zquncxj9140/AconcaguaThaiPatcher.exe/file",
+    "description": "เกมผจญภัย PlayStation ว่าด้วยผู้รอดชีวิตจากเครื่องบินตกบนภูเขาหิมะ; แปลบทสนทนา เมนู ไอเท็ม และเอกสาร พร้อมตัวเลือกเสียงต้นฉบับหรือเสียงไทย",
+    "notes": [
+      "เวอร์ชัน 8 แก้ฟอนต์ข้อความแตกจากรุ่นก่อน",
+      "ใช้ ROM ญี่ปุ่นต้นฉบับแผ่น 1 และ 2; ไฟล์เกมไม่รวมในแพตช์",
+      "โพสต์ระบุว่ายังไม่ได้ทดสอบจนจบเกม"
+    ],
+    "credit": "kai16 / AjPed"
   }
 ]
