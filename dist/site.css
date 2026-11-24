@@ -81,6 +81,9 @@ h2 { font-size: 1.35rem; margin: 0; }
 .card-link:focus-visible { outline-offset: -3px; }
 .card-image { aspect-ratio: 1.8; position: relative; overflow: hidden; background: #111610; border-bottom: 1px solid var(--line); }
 .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.cover-placeholder { height: 100%; display: grid; place-content: center; gap: 10px; padding: 20px; text-align: center; color: #ecf3d4; background: repeating-linear-gradient(0deg, #ffffff08 0 1px, transparent 1px 4px), radial-gradient(ellipse at 50% 35%, #596c41, #20291f 72%); font-family: var(--mono); }
+.cover-placeholder strong { font-size: clamp(1.1rem, 2.5vw, 1.7rem); line-height: 1.2; }
+.cover-placeholder small { color: #b3c28d; letter-spacing: .08em; }
 .card-image.gta-vi img { object-position: 50% 29%; }
 .card-image span { position: absolute; left: 10px; bottom: 10px; background: #171d15; color: #f4f8df; border: 1px solid #656c55; border-radius: 3px; padding: 2px 8px; font-size: .8rem; }
 .card-body { display: flex; flex: 1; flex-direction: column; padding: 15px 16px; }
@@ -109,6 +112,10 @@ dd { margin: 0; }
 .detail-copy ul { padding-left: 22px; }
 .actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 20px; }
 .button { text-decoration: none; }
+.original-post { margin-bottom: 48px; }
+.post-text { padding: 18px; white-space: pre-wrap; overflow-wrap: anywhere; }
+.no-image { margin: 0; padding: 25px 18px; color: var(--muted); text-align: center; }
+.no-image a { color: var(--lime); font-weight: bold; }
 @media (max-width: 850px) {
   .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .wrap { width: calc(100% - 44px); }

@@ -2,7 +2,7 @@ import { mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 
 const games = JSON.parse(readFileSync(new URL('./games.json', import.meta.url), 'utf8'));
 const facebook = 'https://www.facebook.com/people/แปล-mod-by-kai16/61593778466354/';
-const platforms = ['Famicom / NES', 'PlayStation', 'PlayStation 5', 'Xbox Series X|S'];
+const platforms = ['Super Famicom / SNES', 'Nintendo 64', 'PlayStation', 'PlayStation 5', 'Xbox Series X|S'];
 const escape = value => String(value).replace(/[&<>"']/g, character => ({
   '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
 })[character]);
@@ -29,17 +29,18 @@ ${script}</body></html>`;
 }
 
 function card(game) {
-  return `<article class="card" data-platforms="${escape(game.platforms.join(';'))}" data-search="${escape([game.title, game.subtitle, game.type, ...game.platforms].join(' '))}">
+  return `<article class="card" data-platforms="${escape(game.platforms.join(';'))}" data-search="${escape([game.title, game.subtitle, game.type, ...game.platforms, game.postText].join(' '))}">
 <a class="card-link" href="games/${game.id}/">
-<div class="card-image ${game.id}"><img src="media/${game.images[0]}" alt="" loading="lazy"><span>${escape(game.type)}</span></div>
+<div class="card-image ${game.id}">${game.images?.[0] ? `<img src="media/${game.images[0]}" alt="" loading="lazy">` : `<div class="cover-placeholder"><strong>${escape(game.cover || game.title)}</strong><small>${escape(game.platforms[0])}</small></div>`}<span>${escape(game.type)}</span></div>
 <div class="card-body"><p class="platform">${game.platforms.map(escape).join(' / ')}</p>
 <h3>${escape(game.title)}</h3><p class="subtitle">${escape(game.subtitle)}</p>
 <span class="card-open">ดูรายละเอียด</span></div></a></article>`;
 }
 
 function detail(game) {
-  const gallery = game.images.map((image, index) => `
-<figure><a href="../../media/${image}" aria-label="เปิดภาพเต็ม ภาพที่ ${index + 1}"><img src="../../media/${image}" alt="${escape(game.title)} ภาพที่ ${index + 1}"></a></figure>`).join('');
+  const gallery = game.images?.length ? game.images.map((image, index) => `
+<figure><a href="../../media/${image}" aria-label="เปิดภาพเต็ม ภาพที่ ${index + 1}"><img src="../../media/${image}" alt="${escape(game.title)} ภาพที่ ${index + 1}"></a></figure>`).join('')
+    : `<p class="no-image">ภาพทั้งหมดอยู่ในโพสต์ต้นฉบับ <a href="${escape(game.source)}">เปิดโพสต์ Facebook</a></p>`;
   return page(`${game.title} | KAI16.ARCHIVE`, `
 <div class="back"><a href="../../index.html">กลับไปคลังเกม</a></div>
 <div class="detail-head"><p class="platform">${game.platforms.map(escape).join(' / ')}</p><h1>${escape(game.title)}</h1><p class="detail-subtitle">${escape(game.subtitle)}</p></div>
@@ -50,7 +51,8 @@ function detail(game) {
 <ul>${game.notes.map(note => `<li>${escape(note)}</li>`).join('')}</ul>
 <div class="actions">${game.download ? `<a class="button primary" href="${escape(game.download)}">${game.type === 'คู่มือ PDF' ? 'ดาวน์โหลดคู่มือ PDF' : 'ดาวน์โหลดแพตช์'}</a>` : ''}
 <a class="button" href="${escape(game.source)}">${game.source.includes('facebook.com') ? 'ดูโพสต์ต้นฉบับ' : 'ดูแหล่งข้อมูลและทางไปหน้าแจก'}</a></div>
-</div></section></div>`, '../../', '', '../../index.html');
+</div></section></div>
+<section class="window original-post"><h2>ข้อความจากโพสต์ Facebook ต้นฉบับ</h2><div class="post-text">${escape(game.postText || 'ยังไม่มีข้อความต้นฉบับในข้อมูลเกมนี้')}</div></section>`, '../../', '', '../../index.html');
 }
 
 const filters = ['ทั้งหมด', ...platforms].map((platform, index) => `<button type="button" data-platform="${index ? escape(platform) : ''}" aria-pressed="${index === 0}">${escape(platform)}</button>`).join('');
