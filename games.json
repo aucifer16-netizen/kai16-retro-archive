@@ -59,7 +59,7 @@
       "gta-facebook-post.jpg"
     ],
     "source": "https://www.facebook.com/permalink.php?story_fbid=pfbid02zrUu7F8PsMxx3bbTZjcStitn7rE6ipnHFKJyBbU3cdjUdmNPcM2dgHvQzhLPwzWtl&id=61593778466354",
-    "download": "https://www.mediafire.com/file/sz59j8d6tf26mng/GTA_VI_Thai_200p.pdf/file",
+    "download": "../../downloads/GTA_VI_Thai_200p.pdf",
     "description": "คู่มือภาษาไทยตั้งแต่บทนำถึงฉากจบ มีสารบัญแบบคลิกได้และรายละเอียดสำหรับเก็บ 100%",
     "notes": [
       "มีสปอยล์ช่วงท้ายและฉากจบ"
@@ -151,12 +151,400 @@
       "zelda-facebook-post.jpg"
     ],
     "source": "https://www.facebook.com/61593778466354/posts/122127096735459282",
-    "download": "https://www.mediafire.com/file/3iknqltrc4nvf7k/Zelda_Majoras_Mask_N64_Thai_128p.pdf/file",
+    "download": "../../downloads/Zelda_Majoras_Mask_N64_Thai_128p.pdf",
     "description": "คู่มือสไตล์นิตยสารสำหรับฉบับ Nintendo 64 ครอบคลุมเส้นทางหลัก ดันเจียน หน้ากาก และเควสต์",
     "notes": [
       "มีสปอยล์จนจบเกม"
     ],
     "credit": "คู่มือแฟนจัดทำ",
     "postText": "🎭🌙 แจกฟรี! บทสรุป Zelda: Majora’s Mask ภาษาไทย 128 หน้า 📖\n\nก่อนดวงจันทร์ตก… ยังมีคนใน Termina รอให้เราไปช่วย! ใครกำลังเล่นหรืออยากกลับไปผจญภัยกับ Link อีกครั้ง จัดให้แบบนิตยสารเฉลยเกม พร้อมภาพเกมและอาร์ตเวิร์ก เปิดอ่านประกอบระหว่างเล่นได้เลยครับ\n\n✨ ภายในเล่มมีครบทั้ง\n⚔️ เส้นทางหลักตั้งแต่เริ่มเกมจนถึงศึกกับ Majora\n🏰 วิธีผ่านดันเจียนและเทคนิคบอสทั้งสี่\n⏳ ระบบเวลาสามวัน การย้อนเวลา และวิธีเซฟ\n🎭 วิธีเก็บหน้ากากทั้ง 24 ใบ\n❤️ เช็กลิสต์หัวใจครบ 52 ชิ้น\n🧚 ตำแหน่ง Stray Fairies ในวิหารทั้ง 60 ตัว\n💌 เควสต์ Anju–Kafei แยกวัน พร้อมเตือนนัดสำคัญ\n🗡️ ขวดทั้งหก ดาบ Gilded และงานเสริมต่าง ๆ\n\n📥 ดาวน์โหลดฟรีที่นี่ 👉 aHR0cHM6Ly93d3cubWVkaWFmaXJlLmNvbS9maWxlLzNpa25xbHRyYzRudmY3ay9aZWxkYV9NYWpvcmFzX01hc2tfTjY0X1RoYWlfMTI4cC5wZGYvZmlsZQ== (Decode Base64)\n\n📌 อิง ฉบับ Nintendo 64 ดั้งเดิม และมีสปอยล์จนจบเกม คู่มือแฟนจัดทำ พร้อมเครดิตแหล่งข้อมูลและภาพภายในเล่ม เกมและภาพประกอบเป็นลิขสิทธิ์ Nintendo เซฟโพสต์ไว้เปิดดูตอนเล่น หรือส่งต่อให้เพื่อนที่กำลังหลงอยู่ในวังวนสามวันได้เลยครับ 💜\n\n#Zelda #MajorasMask #Nintendo64 #บทสรุปเกม #บทสรุปภาษาไทย #แจกฟรี #เกมย้อนยุค"
+  },
+  {
+    "id": "zelda-ocarina-of-time",
+    "title": "The Legend of Zelda: Ocarina of Time",
+    "subtitle": "แพตช์ภาษาไทยและบทสรุป 100 หน้า",
+    "cover": "OCARINA OF TIME",
+    "platforms": [
+      "Nintendo 64"
+    ],
+    "type": "แพตช์ภาษาไทย + คู่มือ PDF",
+    "format": "ตัวติดตั้ง Windows · PDF 100 หน้า",
+    "images": [
+      "ocarina-facebook-post.jpg"
+    ],
+    "source": "https://www.facebook.com/permalink.php?story_fbid=pfbid0iP7XEmFDmNmoJLxvihTUx22zp7iqhyKNPNvupCo1q9NXji5nK5yoGRTxmKG2VicJl&id=61593778466354",
+    "downloads": [
+      {
+        "label": "ดาวน์โหลดแพตช์ภาษาไทย",
+        "href": "../../downloads/ZeldaThaiPatcher.exe"
+      },
+      {
+        "label": "ดาวน์โหลดบทสรุป PDF",
+        "href": "../../downloads/Zelda_Ocarina_of_Time_N64_Thai_100p.pdf"
+      }
+    ],
+    "description": "โพสต์แจกแพตช์ภาษาไทยและบทสรุปเกม Nintendo 64 ในโพสต์เดียว",
+    "notes": [
+      "ใช้กับ ROM ต้นฉบับญี่ปุ่นตามรายละเอียดในโพสต์"
+    ],
+    "credit": "kai16 / AjPed"
+  },
+  {
+    "id": "final-fantasy-resonance-guide",
+    "title": "Final Fantasy Resonance",
+    "subtitle": "บทสรุปภาษาไทย 100 หน้า",
+    "cover": "FINAL FANTASY RESONANCE",
+    "platforms": [
+      "ไม่ระบุ"
+    ],
+    "type": "คู่มือ PDF",
+    "format": "PDF · 100 หน้า",
+    "images": [
+      "ff-resonance-facebook.jpg"
+    ],
+    "source": "https://www.facebook.com/permalink.php?story_fbid=pfbid0Xn9hEJhCH3VgxkkSQ1SvReKchwWPsRih8w8v1eGXBBxZmT7yi4fcfgoPT96qPBeol&id=61593778466354",
+    "downloads": [
+      {
+        "label": "ดาวน์โหลดบทสรุป PDF",
+        "href": "../../downloads/FF_Resonance_Thai_100p.pdf"
+      }
+    ],
+    "description": "คู่มือภาษาไทยรวมเส้นทางเนื้อเรื่อง ระบบต่อสู้ ตัวละคร เควสต์เสริม อาวุธ และงานหลังจบเกม",
+    "notes": [
+      "คู่มือมีสปอยล์เนื้อเรื่องจนจบเกม"
+    ],
+    "credit": "คู่มือแฟนจัดทำ"
+  },
+  {
+    "id": "terranigma-thai",
+    "title": "Terranigma / Tenchi Souzou",
+    "subtitle": "แพตช์ภาษาไทยและบทสรุป 100 หน้า",
+    "cover": "TERRANIGMA",
+    "platforms": [
+      "Super Famicom / SNES"
+    ],
+    "type": "แพตช์ภาษาไทย + คู่มือ PDF",
+    "format": "ตัวติดตั้ง Windows · PDF 100 หน้า",
+    "images": [
+      "terranigma-facebook.jpg"
+    ],
+    "source": "https://www.facebook.com/permalink.php?story_fbid=pfbid029U1YxhpoWG1FhZUqKx2skaK4g8GDy3HBqrMnk7T8ZeCFkxTbDRSLUxVWgftkAc4Ul&id=61593778466354",
+    "relatedPosts": [
+      {
+        "label": "โพสต์บทสรุป Terranigma",
+        "source": "https://www.facebook.com/permalink.php?story_fbid=pfbid02L4kfLHb5Tb4TYJp4vWp88XHxzTwQ15Uk55tUv747cEheLDvtKJpx5FHjmDTsEM5Xl&id=61593778466354"
+      }
+    ],
+    "downloads": [
+      {
+        "label": "ดาวน์โหลดบทสรุป PDF",
+        "href": "../../downloads/Terranigma_Thai_100p.pdf"
+      },
+      {
+        "label": "ดาวน์โหลดแพตช์จาก MediaFire",
+        "href": "https://www.mediafire.com/file/0naslea7mt3tr48/Tenchi_Souzou_Thai_Patcher_v8.exe/file"
+      }
+    ],
+    "description": "เกมแอ็กชัน RPG บน Super Famicom ฉบับภาษาไทย พร้อมบทสรุปภาษาไทย",
+    "notes": [
+      "โพสต์ต้นฉบับและโพสต์บทสรุปแสดงแยกกันด้านล่าง"
+    ],
+    "credit": "kai16 / AjPed"
+  },
+  {
+    "id": "soul-of-the-samurai",
+    "title": "Soul of the Samurai",
+    "subtitle": "แพตช์เสียงและข้อความภาษาไทย พร้อมบทสรุป",
+    "cover": "SOUL OF THE SAMURAI",
+    "platforms": [
+      "PlayStation"
+    ],
+    "type": "แพตช์ภาษาไทย + คู่มือ PDF",
+    "format": "ตัวติดตั้ง Windows · PDF",
+    "images": [
+      "soul-samurai-facebook.jpg"
+    ],
+    "source": "https://www.facebook.com/permalink.php?story_fbid=pfbid022m7Wo1DMaesdAEwfNyEjx4RoYzgS3aZpERmx5wbcqmgJqymU96GPSYB4wg9nHTBkl&id=61593778466354",
+    "relatedPosts": [
+      {
+        "label": "โพสต์บทสรุป Soul of the Samurai",
+        "source": "https://www.facebook.com/permalink.php?story_fbid=pfbid02BmFFyxbr7iNrR3MoKEgbVpjv3hMNMYyQNajH12GgZ7qCYHydNqLnYDY3XSatHa9Ml&id=61593778466354"
+      }
+    ],
+    "downloads": [
+      {
+        "label": "ดาวน์โหลดแพตช์ภาษาไทย",
+        "href": "../../downloads/SoulOfTheSamurai_Thai_Patcher.exe"
+      },
+      {
+        "label": "ดาวน์โหลดบทสรุป PDF",
+        "href": "https://www.mediafire.com/file/w6g34tmbyhpdq2j/Soul_of_the_Samurai_Thai_Guide_100p.pdf/file"
+      }
+    ],
+    "description": "เกม PlayStation ฉบับแพตช์ภาษาไทยและเสียงไทย พร้อมโพสต์แจกบทสรุปแยก",
+    "notes": [
+      "ไฟล์แพตช์ไม่รวมเกมต้นฉบับ"
+    ],
+    "credit": "kai16 / AjPed"
+  },
+  {
+    "id": "the-firemen",
+    "title": "The Firemen",
+    "subtitle": "แพตช์ภาษาไทย · ดับไฟให้ทันก่อนทั้งตึกจะไหม้",
+    "cover": "THE FIREMEN",
+    "platforms": [
+      "Super Famicom / SNES"
+    ],
+    "type": "แพตช์ภาษาไทย",
+    "format": "ZIP · Patch",
+    "images": [
+      "firemen-facebook.jpg"
+    ],
+    "source": "https://www.facebook.com/permalink.php?story_fbid=pfbid0pZDKTK2DtbEjprVX2xBVYfZ39V7Ug98kc4ukY6C2WtFCsRmCAoubY7hyGcZapkG3l&id=61593778466354",
+    "download": "https://www.mediafire.com/file/m9f0p0ta5u3nvto/FiremanThai+Patch.zip/file",
+    "description": "เกมดับเพลิงแอ็กชันจาก Human Entertainment สำหรับ Super Famicom / SNES ฉบับภาษาไทย",
+    "notes": [
+      "โพสต์แจกพร้อมภาพจากเพจ Facebook"
+    ],
+    "credit": "kai16 / AjPed"
+  },
+  {
+    "id": "wataru-gaiden",
+    "title": "Mashin Eiyuuden Wataru Gaiden",
+    "subtitle": "วาตารุ ตำนานผู้กล้าหุ่นเทพ · แพตช์ภาษาไทย",
+    "cover": "WATARU GAIDEN",
+    "platforms": [
+      "Famicom / NES"
+    ],
+    "type": "แพตช์ภาษาไทย",
+    "format": "Windows GUI Patcher",
+    "images": [
+      "wataru-facebook.jpg"
+    ],
+    "source": "https://www.facebook.com/permalink.php?story_fbid=pfbid02NrAcZ4j5RibJsirYgmhJnswRAMSoUzEPcu7F4eYXkxueThmxQn94fNhRnncpqBzwl&id=61593778466354",
+    "download": "https://www.mediafire.com/file/4vcmo78fc2aqm21/Wataru_Thai_GUI_Patcher_Windows.zip/file",
+    "description": "เกมแอ็กชัน RPG ของ Hudson / Westone สำหรับ Famicom ฉบับภาษาไทย",
+    "notes": [
+      "โพสต์ต้นฉบับระบุว่าเป็นงานทดลอง Alpha"
+    ],
+    "credit": "kai16 / AjPed"
+  },
+  {
+    "id": "star-fox-sfc",
+    "title": "Star Fox",
+    "subtitle": "แพตช์ภาษาไทยสำหรับ Super Famicom",
+    "cover": "STAR FOX",
+    "platforms": [
+      "Super Famicom / SNES"
+    ],
+    "type": "แพตช์ภาษาไทย",
+    "format": "ZIP · Windows Patcher",
+    "images": [
+      "star-fox-facebook.jpg"
+    ],
+    "source": "https://www.facebook.com/permalink.php?story_fbid=pfbid0g9bBEQ8WiaibGaw1Y6jAtrScaGf5MmPHD4caU4Py3CyGKZB6q6nyr3ebFobn9W41l&id=61593778466354",
+    "download": "https://www.mediafire.com/file/tcccu39xmuoiage/StarFoxThaiPatcher.zip/file",
+    "description": "แพตช์ภาษาไทยสำหรับเกม Star Fox บน Super Famicom / SFC",
+    "notes": [
+      "โพสต์แจกแพตช์พร้อมภาพจากเพจ Facebook"
+    ],
+    "credit": "kai16 / AjPed"
+  },
+  {
+    "id": "market-deu-demo",
+    "title": "ตลาดเดือด DEMO",
+    "subtitle": "เกม original ของเพจ · เดโม PC และ Android",
+    "cover": "ตลาดเดือด",
+    "platforms": [
+      "PC",
+      "Android"
+    ],
+    "type": "เกมเดโม",
+    "format": "ZIP · Android APK",
+    "images": [
+      "market-deu-facebook.jpg"
+    ],
+    "source": "https://www.facebook.com/permalink.php?story_fbid=pfbid0SuWqy35ZVkmvEhGkBGvXHEdhDDVACuMbUyYVnHLtk38cXfWvhtwgLYonKNEg4CRrl&id=61593778466354",
+    "downloads": [
+      {
+        "label": "ดาวน์โหลดเดโม PC",
+        "href": "https://www.mediafire.com/file/cevms0ilwsktvcb/MenuAtmosphere.zip/file"
+      },
+      {
+        "label": "ดาวน์โหลด Android APK",
+        "href": "https://www.mediafire.com/file/x14nrhrnpssetr6/MarketFury-2.8.2-24.apk/file"
+      }
+    ],
+    "description": "เกมแอ็กชันพิกเซลฉากตลาด มีเดโมให้ลองเล่นบน PC และ Android",
+    "notes": [
+      "โพสต์ต้นฉบับระบุว่ารองรับภาษาไทยและอังกฤษ"
+    ],
+    "credit": "แปล mod by kai16"
+  },
+  {
+    "id": "wild-arms-2-guide",
+    "title": "Wild Arms 2",
+    "subtitle": "บทสรุปภาษาไทยฉบับละเอียด 186 หน้า",
+    "cover": "WILD ARMS 2",
+    "platforms": [
+      "PlayStation"
+    ],
+    "type": "คู่มือ PDF",
+    "format": "PDF · 186 หน้า",
+    "images": [
+      "wild-arms-2-facebook.jpg"
+    ],
+    "source": "https://www.facebook.com/permalink.php?story_fbid=pfbid02kdQ9TKkBsukqUKyD2PK1YmqTYVSqfviesj9BhBWXAPNg7zKJ3udGgSoVWux6EyR5l&id=61593778466354",
+    "download": "https://www.mediafire.com/file/q0ewf40htkicupa/Wild_Arms_2_PS1_Thai_Complete_Guide.pdf/file",
+    "description": "บทสรุปภาษาไทยฉบับละเอียดสำหรับเกม Wild Arms 2 บน PlayStation",
+    "notes": [
+      "PDF 186 หน้า"
+    ],
+    "credit": "คู่มือแฟนจัดทำ"
+  },
+  {
+    "id": "hard-edge-guide",
+    "title": "Hard Edge",
+    "subtitle": "บทสรุปภาษาไทยฉบับละเอียด 113 หน้า",
+    "cover": "HARD EDGE",
+    "platforms": [
+      "PlayStation"
+    ],
+    "type": "คู่มือ PDF",
+    "format": "PDF · 113 หน้า",
+    "images": [
+      "hard-edge-guide-facebook.jpg"
+    ],
+    "source": "https://www.facebook.com/permalink.php?story_fbid=pfbid0g1cnHc2xx1nqinAGrBYF1n7rHWT3GNMbrWYi49qFCeQ3sQUzPPAA6KQWFc33GbKYl&id=61593778466354",
+    "download": "https://www.mediafire.com/file/zogsx5pt2ds182n/Hard_Edge_PS1_Thai_Complete_Guide.pdf/file",
+    "description": "บทสรุปภาษาไทยฉบับละเอียดสำหรับเกม Hard Edge บน PlayStation",
+    "notes": [
+      "PDF 113 หน้า"
+    ],
+    "credit": "คู่มือแฟนจัดทำ"
+  },
+  {
+    "id": "wild-arms-guide",
+    "title": "Wild Arms",
+    "subtitle": "บทสรุปภาษาไทยฉบับละเอียด",
+    "cover": "WILD ARMS",
+    "platforms": [
+      "PlayStation"
+    ],
+    "type": "คู่มือ PDF",
+    "format": "PDF",
+    "images": [
+      "wild-arms-facebook.jpg"
+    ],
+    "source": "https://www.facebook.com/permalink.php?story_fbid=pfbid0hQS48Lu66xQXZdRJ3fkdP18chqVuzfQ6R8hQ495GkN9JuHTozLFfoT85ZC24FpiPl&id=61593778466354",
+    "download": "https://www.mediafire.com/file/v6qrjk44vs5kj6y/Wild_Arms_PS1_Thai_Guide.pdf/file",
+    "description": "บทสรุปเกม Wild Arms ภาษาไทยฉบับละเอียด",
+    "notes": [
+      "ลิงก์บทสรุปจากโพสต์ Facebook"
+    ],
+    "credit": "คู่มือแฟนจัดทำ"
+  },
+  {
+    "id": "doraemon-3-thai",
+    "title": "Doraemon 3: Nobita to Toki no Hougyoku",
+    "subtitle": "โดราเอมอน 3 ฉบับภาษาไทย พร้อมบทสรุป 88 หน้า",
+    "cover": "DORAEMON 3",
+    "platforms": [
+      "Super Famicom / SNES"
+    ],
+    "type": "แพตช์ภาษาไทย + คู่มือ PDF",
+    "format": "Windows Patcher · IPS · PDF 88 หน้า",
+    "images": [
+      "doraemon-3-facebook.jpg"
+    ],
+    "source": "https://www.facebook.com/permalink.php?story_fbid=pfbid07ENw3MrUxdyCdiyWTsQcMsMCHokAd1g5v9aQkkR2RePDbFq7KYhpg84bQfKVV714l&id=61593778466354",
+    "relatedPosts": [
+      {
+        "label": "โพสต์บทสรุป Doraemon 3",
+        "source": "https://www.facebook.com/permalink.php?story_fbid=pfbid04bV57dE1F7ejiVvPr6mRKzYZC9xJ2TuPWwtFrw37dTTNP51ZVnoNGWesDNSLWzqZl&id=61593778466354"
+      }
+    ],
+    "downloads": [
+      {
+        "label": "ดาวน์โหลดตัวติดตั้งแพตช์",
+        "href": "../../downloads/Doraemon3_Thai_Patcher.exe"
+      },
+      {
+        "label": "ดาวน์โหลดไฟล์ IPS",
+        "href": "../../downloads/Doraemon3_TH_v1.2.ips"
+      },
+      {
+        "label": "ดาวน์โหลดบทสรุป PDF",
+        "href": "https://www.mediafire.com/file/opltzkm94njvedc/Doraemon_3_SFC_Thai_Walkthrough.pdf/file"
+      }
+    ],
+    "description": "เกมแอ็กชันผจญภัยบน Super Famicom ฉบับภาษาไทย พร้อมบทสรุปแยกอีกโพสต์",
+    "notes": [
+      "ไฟล์แพตช์ไม่รวมเกมต้นฉบับ"
+    ],
+    "credit": "kai16 / AjPed"
+  },
+  {
+    "id": "dirge-of-cerberus",
+    "title": "Dirge of Cerberus: Final Fantasy VII",
+    "subtitle": "แพตช์ภาษาไทยและเสียงพากย์ไทย",
+    "cover": "DIRGE OF CERBERUS",
+    "platforms": [
+      "PlayStation 2"
+    ],
+    "type": "แพตช์ภาษาไทย",
+    "format": "ZIP · Patch",
+    "images": [
+      "dirge-of-cerberus-facebook.jpg"
+    ],
+    "source": "https://www.facebook.com/permalink.php?story_fbid=pfbid0N8tKtShL6VUwBdqTVtvPZG6JQzqWTHXhN5NjbUdYrrw5FPUzNzvDDAGbaJYnhpo4l&id=61593778466354",
+    "download": "https://www.mediafire.com/file/zcbmjfmaexxdehc/FFVII-Thai-Patcher.zip/file",
+    "description": "เกมแอ็กชันของ Vincent Valentine บน PlayStation 2 ฉบับภาษาไทยและเสียงไทย",
+    "notes": [
+      "โพสต์ต้นฉบับระบุแพตช์ภาษาไทยและเสียงพากย์ไทย"
+    ],
+    "credit": "kai16 / AjPed"
+  },
+  {
+    "id": "rockman-dash",
+    "title": "Rockman DASH / Mega Man Legends",
+    "subtitle": "แพตช์ภาษาไทย v35 · เสียงไทย/ญี่ปุ่น",
+    "cover": "ROCKMAN DASH",
+    "platforms": [
+      "PlayStation"
+    ],
+    "type": "แพตช์ภาษาไทย",
+    "format": "Windows Patcher",
+    "images": [
+      "rockman-dash-facebook.jpg"
+    ],
+    "source": "https://www.facebook.com/permalink.php?story_fbid=pfbid02WgUoavnRc788i8MGLEkYDTKPDCbzSJvWwRhNRvpUJpPd9VtgzwEYhy6viwpb8R5Xl&id=61593778466354",
+    "download": "https://www.mediafire.com/file/ivdwxqytf85xixd/Rockman_DASH_Thai_Patcher_v35_DualVoice.exe/file",
+    "description": "แพตช์ภาษาไทยสำหรับ Rockman DASH บน PlayStation พร้อมตัวเลือกเสียงตามโพสต์",
+    "notes": [
+      "ไฟล์แพตช์ไม่รวมเกมต้นฉบับ"
+    ],
+    "credit": "kai16 / AjPed"
+  },
+  {
+    "id": "panzer-bandit",
+    "title": "Panzer Bandit",
+    "subtitle": "แพตช์ภาษาไทยและเสียงพากย์ไทย",
+    "cover": "PANZER BANDIT",
+    "platforms": [
+      "PlayStation"
+    ],
+    "type": "แพตช์ภาษาไทย",
+    "format": "Windows Patcher",
+    "images": [
+      "panzer-bandit-facebook.jpg"
+    ],
+    "source": "https://www.facebook.com/permalink.php?story_fbid=pfbid0m9S7CHCNcNXSLLDDg5tqMKYcj2zAoUoZvgv9BcU5UGRoUGDWws5ZhGftrjqnwiRGl&id=61593778466354",
+    "download": "../../downloads/PanzerBandit_TH_Patcher.exe",
+    "description": "เกมแอ็กชันบน PlayStation ฉบับแพตช์ภาษาไทยและเสียงไทย",
+    "notes": [
+      "ไฟล์แพตช์ไม่รวมเกมต้นฉบับ"
+    ],
+    "credit": "kai16 / AjPed"
   }
 ]
