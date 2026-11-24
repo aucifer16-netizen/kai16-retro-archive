@@ -1,18 +1,47 @@
 [
   {
+    "id": "the-note",
+    "title": "The Note",
+    "subtitle": "บันทึกที่ไม่ถูกเปิดเผย",
+    "cover": "THE NOTE",
+    "platforms": [
+      "PlayStation"
+    ],
+    "type": "แพตช์ภาษาไทย",
+    "format": "ตัวติดตั้ง Windows · SLPS-00684",
+    "images": [
+      "the-note-facebook.jpg"
+    ],
+    "source": "https://www.facebook.com/permalink.php?story_fbid=pfbid0c2xyoa2xERgEVnWJaKGn4qQzd4n3EGgWfXRJiM3Gt6s94iiKFgUVgHGT2Xw63xncl&id=61593778466354",
+    "download": "https://www.mediafire.com/file/5fkee5iud4z146t/TheNote_Thai_Patch.exe/file",
+    "description": "เกมสยองขวัญลึกลับบน PlayStation พร้อมบทแปลไทยและเสียงพากย์ไทย",
+    "notes": [
+      "ใช้ไฟล์เกมต้นฉบับ BIN/CUE รหัส SLPS-00684"
+    ],
+    "credit": "kai16 / AjPed",
+    "postText": "📓 แจกฟรี! แพตช์ภาษาไทย THE NOTE — บันทึกที่ไม่ถูกเปิดเผย (PS1)\n公開されなかった手記 · Sunsoft · 1997\n\nเกมสยองขวัญลึกลับบน PlayStation ที่ไม่เคยออกนอกญี่ปุ่น\nตอนนี้เล่นเป็นภาษาไทยได้ทั้งเกมแล้ว 🇹🇭\n\n✨ มีอะไรในแพตช์นี้\n🔸 แปลไทยทั้งเกม: บทพูด ข้อความ เมนู ไอเทม HUD\n🔸 ฟอนต์ไทยที่ทำใหม่ อ่านง่าย สระและวรรณยุกต์ครบ\n🔸 โลโก้เกมภาษาไทย ทั้งหน้าไตเติลและในฉากเปิดเกม\n🔸 พากย์เสียงไทยด้วย AI (F5-TTS-THAI) โคลนเสียงจากนักพากย์ต้นฉบับ\n🔸 เลือกได้ว่าจะฟังเสียงไทยหรือเสียงญี่ปุ่นต้นฉบับ\n🔸 โหมดง่าย (ไม่บังคับ): พลังชีวิตเต็ม · กระสุนเต็ม · เงิน 9999\n\n🛠 วิธีติดตั้ง\n1. เตรียมเกมต้นฉบับของตัวเองแบบ bin/cue (SLPS-00684)\n2. เปิด TheNote_Thai_Patch.exe แล้วเลือกไฟล์ .cue\n3. เลือกเสียง (ไทย/ญี่ปุ่น) และโหมดง่าย ถ้าต้องการ\n4. กดติดตั้ง แล้วเปิด \"The Note (Thai).cue\" ด้วย DuckStation / RetroArch / ePSXe\n\n📥 ดาวน์โหลดแพตช์: aHR0cHM6Ly93d3cubWVkaWFmaXJlLmNvbS9maWxlLzVma2VlNWl1ZDR6MTQ2dC9UaGVOb3RlX1RoYWlfUGF0Y2guZXhlL2ZpbGU=\n\n⚠️ แพตช์นี้ไม่มีไฟล์เกม ผู้เล่นต้องมีเกมต้นฉบับของตัวเอง\n⚠️ แจกฟรี ห้ามนำไปจำหน่าย\n\nแปลโดย kai16 / AjPed\nถ้าเจอคำแปลผิดหรือบั๊ก บอกได้ในคอมเมนต์เลยครับ 🙏\n\n#TheNote #บันทึกที่ไม่ถูกเปิดเผย #แพตช์ภาษาไทย #PS1 #PlayStation #เกมแปลไทย #RetroGaming #kai16 #AjPed"
+  },
+  {
     "id": "gta-vi",
     "title": "Grand Theft Auto VI",
     "subtitle": "บทสรุปภาษาไทย 200 หน้า",
     "cover": "GTA VI",
-    "platforms": ["PlayStation 5", "Xbox Series X|S"],
+    "platforms": [
+      "PlayStation 5",
+      "Xbox Series X|S"
+    ],
     "type": "คู่มือ PDF",
     "format": "PDF · 200 หน้า",
     "date": "2026-11-21",
-    "images": ["gta-facebook-post.jpg"],
+    "images": [
+      "gta-facebook-post.jpg"
+    ],
     "source": "https://www.facebook.com/permalink.php?story_fbid=pfbid02zrUu7F8PsMxx3bbTZjcStitn7rE6ipnHFKJyBbU3cdjUdmNPcM2dgHvQzhLPwzWtl&id=61593778466354",
     "download": "https://www.mediafire.com/file/sz59j8d6tf26mng/GTA_VI_Thai_200p.pdf/file",
     "description": "คู่มือภาษาไทยตั้งแต่บทนำถึงฉากจบ มีสารบัญแบบคลิกได้และรายละเอียดสำหรับเก็บ 100%",
-    "notes": ["มีสปอยล์ช่วงท้ายและฉากจบ"],
+    "notes": [
+      "มีสปอยล์ช่วงท้ายและฉากจบ"
+    ],
     "credit": "แปล mod by kai16",
     "postText": "🚗 แจกฟรี! บทสรุป GTA VI ภาษาไทย ฉบับปรับปรุง 200 หน้า ใครกำลังเล่นแล้วติดภารกิจ ไม่รู้ว่าต้องไปหาใครต่อ หรืออยากเก็บงานเสริมให้ครบก่อนขึ้นบทใหม่ ผมทำคู่มือไว้ให้เปิดดูข้างเกมได้เลยครับ ฉบับนี้เพิ่มจาก 150 เป็น 200 หน้า พร้อมเกลาภาษาไทยให้อ่านลื่นขึ้น แต่ละภารกิจบอกว่าจะเริ่มตรงไหน ต้องทำอะไร และสังเกตอย่างไรว่าไปต่อได้แล้ว ชื่อภารกิจภาษาอังกฤษยังอยู่ครบ จะได้ค้นเทียบกับหน้าจอเกมง่าย ๆ\n\n📖 พาเล่นตั้งแต่บทนำถึงช่วงจบ พร้อมสารบัญกดข้ามหน้า\n💰 เจาะจุดติดของงานปล้นธนาคาร Sinfrontera และงานสนามบิน VCIA\n📌 รวมงานเสริมที่พลาดได้และจังหวะที่ควรเก็บเซฟแยก\n🏁 อธิบายวิธีดูตัวนับความคืบหน้าสำหรับสายเก็บ 100%\n🌴 จัดหน้าแบบนิตยสาร พร้อมภาพจากแกลเลอรีทางการของ Rockstar Games\n\n📥 ดาวน์โหลด PDF ฟรี aHR0cHM6Ly93d3cubWVkaWFmaXJlLmNvbS9maWxlL3N6NTlqOGQ2dGYyNm1uZy9HVEFfVklfVGhhaV8yMDBwLnBkZi9maWxl Serach google decode base64 แล้ว เอา code ใส่จะได้ link จริง\n\n⚠️ มีสปอยล์ช่วงท้ายและฉากจบ ถ้าเล่นรอบแรก แนะนำให้เปิดเฉพาะหน้าที่กำลังเล่นครับ ใครติดตรงไหนหรือเจอรายละเอียดที่ต่างจากในเล่ม มาคุยกันในคอมเมนต์ได้ครับ\n\n#GTAVI #GTA6 #บทสรุปเกม #บทสรุปภาษาไทย #แจกบทสรุป #ViceCity"
   },
@@ -21,15 +50,21 @@
     "title": "Ningyo no Rakuin",
     "subtitle": "ตราประทับแห่งเงือก",
     "cover": "人魚の烙印",
-    "platforms": ["PlayStation"],
+    "platforms": [
+      "PlayStation"
+    ],
     "type": "แพตช์ภาษาไทย",
     "format": "ตัวติดตั้ง Windows · SLPS-02854",
     "date": "2026-11-16",
-    "images": ["ningyo-facebook-post.jpg"],
+    "images": [
+      "ningyo-facebook-post.jpg"
+    ],
     "source": "https://www.facebook.com/permalink.php?story_fbid=pfbid02ppPfKnkXpfyf3MKDZARJT1mn6C9Q8TWJhAj1S3ghpu9aUm5G11CC2zFx5DEFrGNFl&id=61593778466354",
     "download": "https://www.mediafire.com/file/td9iojinhh17yz7/NingyoNoRakuin_ThaiPatcher.exe/file",
     "description": "เกมวางแผนสยองขวัญบน PlayStation แปลจากต้นฉบับญี่ปุ่น พร้อมฟอนต์ โลโก้ และโปรแกรมแพตช์ภาษาไทย",
-    "notes": ["ต้องใช้แผ่นเกมญี่ปุ่นของตัวเอง รหัส SLPS-02854"],
+    "notes": [
+      "ต้องใช้แผ่นเกมญี่ปุ่นของตัวเอง รหัส SLPS-02854"
+    ],
     "credit": "kai16 / AjPed",
     "postText": "🌊🩸 \"ตราประทับแห่งเงือก\" — ตำนานสยองขวัญ PS1 ที่โลกเกือบลืม 🩸🌊\n\nถ้าพูดถึงเกมสยองยุค PS1 หลายคนนึกถึง Resident Evil, Silent Hill, Parasite Eve… แต่มีเกมหนึ่งที่ซ่อนอยู่ใต้ทะเลลึกของประวัติศาสตร์เกมมานานกว่า 26 ปี \"Ningyo no Rakuin\" (人魚の烙印) หรือที่ฝรั่งเรียกว่า \"Mark of the Mermaid\" / \"The Curse of Ogaeritō\"\n\n❓ ทำไมถึงเป็นตำนานที่คนมองข้าม\n1️⃣ ไม่เคยออกนอกญี่ปุ่นเลย สร้างโดย Highwaystar จัดจำหน่ายโดย NEC Interchannel เมื่อปี 2000 — ช่วงปลายยุค PS1 ที่ทุกคนกำลังจ้อง PS2 เกมจึงจมหายไปในญี่ปุ่นเงียบ ๆ ไม่มีภาษาอังกฤษ ไม่มีรีวิวฝั่งตะวันตก กลายเป็นของหายากที่น้อยคนจะรู้จัก\n2️⃣ เกม Tactical RPG + สยองขวัญแนว Lovecraft ที่แทบไม่มีใครกล้าทำ ไม่ใช่ซอมบี้ ไม่ใช่ผีญี่ปุ่น แต่เป็นความสยองแบบ \"ตำนาน Cthulhu\" ชาวเกาะคลั่งศรัทธากึ่งมนุษย์ ลัทธิประหลาด และสิ่งที่โผล่ขึ้นมาจากใต้คลื่นทะเล เดินไปถึงฉากท้าย ๆ ยังมี \"แนวปะการังปีศาจ ร์ลเยห์\" ให้คนรักตำนาน Lovecraft ขนลุกกันอีก\n3️⃣ เรื่องเริ่มเหมือนทริปฝัน แต่จบลงด้วยฝันร้าย คู่รัก \"เคสุเกะ\" กับ \"มิซึกิ\" ไปทริปเรียนจบ แต่เครื่องบินตกบนเกาะที่ไม่มีบนแผนที่ จากการเอาชีวิตรอด กลายเป็นภารกิจตามหาคนรัก และค่อย ๆ เปิดโปงความลับของเกาะที่ไม่ควรมีใครรู้\n4️⃣ ต้องรอถึง 26 ปี กว่าโลกจะได้เล่นแบบเข้าใจเนื้อเรื่อง แพตช์ภาษาอังกฤษจากแฟน ๆ (ChapuTranslations และทีม) เพิ่งปล่อยเมื่อฮาโลวีน 31 ต.ค. 2026 สื่อเกมต่างประเทศพากันเรียกว่า \"เกมสยอง PS1 ที่ถูกลืม\" ที่ในที่สุดก็โผล่ขึ้นจากใต้ทะเล และยังมีชุด RetroAchievements ให้ล่าถ้วยอีก 63 รายการ\n5️⃣ และตอนนี้… เล่นเป็นภาษาไทยได้แล้ว! 🇹🇭 แปลจากต้นฉบับญี่ปุ่นทั้งเรื่อง พร้อมฟอนต์ไทยที่ทำมาเฉพาะ โลโก้ไทยใหม่ และโปรแกรมแพตช์ที่กดปุ่มเดียวจบ\n\n🎮 ใครชอบ\n• เกมวางแผนแบบ Tactics\n• บรรยากาศมืดหม่นสไตล์ PS1\n• เรื่องสยองที่ค่อย ๆ บีบหัวใจแทนการตุ้งแช่\n• ตำนาน Cthulhu / Lovecraft\n…เกมนี้คืออัญมณีที่จมอยู่ใต้ทะเลที่คุณต้องงมขึ้นมาเล่นสักครั้ง\n\n📥 แพตช์ไทย (ฟรี): aHR0cHM6Ly93d3cubWVkaWFmaXJlLmNvbS9maWxlL3RkOWlvamluaGgxN3l6Ny9OaW5neW9Ob1Jha3Vpbl9UaGFpUGF0Y2hlci5leGUvZmlsZQ== (search google Decode Base64)\n\n⚠️ แจกฟรี ห้ามจำหน่าย | ต้องใช้แผ่นเกมญี่ปุ่นของตัวเอง (SLPS-02854)\n🙏 แปลไทย: kai16 / AjPed ขอบคุณทีมแพตช์อังกฤษ ChapuTranslations, VervalKON, laytonloztew, whowasphone404 เกมต้นฉบับ © 2000 HIGHWAYSTAR / NEC Interchannel — งานแฟนเมด ไม่เกี่ยวข้องกับเจ้าของลิขสิทธิ์\n\n#ตราประทับแห่งเงือก #NingyoNoRakuin #MarkOfTheMermaid #เกมที่ถูกลืม #PS1 #แพตช์ไทย #Lovecraft #Cthulhu #RetroGaming"
   },
@@ -38,15 +73,22 @@
     "title": "Policenauts",
     "subtitle": "สืบสวนไซไฟฉบับภาษาไทย",
     "cover": "POLICENAUTS",
-    "platforms": ["PlayStation"],
+    "platforms": [
+      "PlayStation"
+    ],
     "type": "แพตช์ภาษาไทย",
     "format": "v1.0 · ตัวติดตั้ง Windows · 2 แผ่น",
     "date": "2026-11-15",
-    "images": ["policenauts-facebook-post.jpg"],
+    "images": [
+      "policenauts-facebook-post.jpg"
+    ],
     "source": "https://www.facebook.com/permalink.php?story_fbid=pfbid0qFjH3GPWUVjAr6rhp52Q1qugkQr4BV3Ux56uv15ZyTeort7VNG1jyRKmq4Va4QPnl&id=61593778466354",
     "download": "https://www.mediafire.com/file/s8fwgyr5jw4owyo/Policenauts_Thai_Patch_v1.0.exe/file",
     "description": "เกมผจญภัยสืบสวนไซไฟของ Hideo Kojima แปลบทสนทนา เมนู ไอเทม FMV พร้อมเสียงพากย์ไทยและซับไทย",
-    "notes": ["ใช้แผ่นญี่ปุ่นของตัวเองทั้งสองแผ่น (SLPS-00215 / SLPS-00216) แบบ BIN/CUE", "เปิดไฟล์ CUE ที่แพตช์แล้วด้วย DuckStation หรือ RetroArch"],
+    "notes": [
+      "ใช้แผ่นญี่ปุ่นของตัวเองทั้งสองแผ่น (SLPS-00215 / SLPS-00216) แบบ BIN/CUE",
+      "เปิดไฟล์ CUE ที่แพตช์แล้วด้วย DuckStation หรือ RetroArch"
+    ],
     "credit": "kai16 / AjPed",
     "postText": "🚀👮 POLICENAUTS ภาษาไทย (PlayStation) — แจกฟรีแล้ว! 👮🚀\n\nผลงานของ Hideo Kojima (ผู้สร้าง Metal Gear) เกมผจญภัยแนวสืบสวนไซไฟสุดคลาสสิกปี 1996 ที่ไม่เคยมีภาษาอังกฤษบน PS1 ตอนนี้เล่นเป็นภาษาไทยได้ทั้งเกมแล้ว!\n\n🌍 เรื่องย่อ\nปี 2013 โจนาธาน อิงแกรม หนึ่งในตำรวจอวกาศ \"โพลิสนอตส์\" หลุดลอยในอวกาศ 25 ปีแล้วตื่นขึ้นมาบนโลก จนวันหนึ่งอดีตภรรยามาขอให้ตามหาสามีที่หายตัวไป... คดีนี้พาเขากลับไปยังอาณานิคมอวกาศ \"บียอนด์ โคสต์\" สู่แผนสมคบคิดที่ใหญ่กว่าที่คิด\n\n✨ มีอะไรบ้างในแพตช์ไทย\n✅ แปลไทยทั้งเกม บทสนทนา เมนู ไอเทม และหน้าเซฟ/โหลด\n✅ ซับไทยในฉากวิดีโอ (FMV) ทุกฉาก\n✅ เสียงพากย์ไทยทั้งในเกมและในวิดีโอ (สร้างด้วย AI โคลนจากเสียงนักพากย์ต้นฉบับ)\n✅ ฟอนต์ไทยวาดใหม่แบบพิกเซลให้อ่านง่ายบนจอ PS1\n✅ โลโก้ \"โพลิสนอทส์\" ภาษาไทยที่หน้าไตเติล\n✅ ภาษาไทยในฉากขับรถไล่ล่า\n✅ ใช้ได้ทั้ง 2 แผ่น\n\n🎮 วิธีเล่น\n1) ใช้แผ่น Policenauts (Japan) ของคุณเองที่ดั้มป์เป็น .bin/.cue (SLPS-00215 / SLPS-00216)\n2) เปิด Policenauts_Thai_Patch_v1.0.exe (ไฟล์เดียว ไม่ต้องแตกไฟล์) → เลือกไฟล์แผ่น 1 และ 2 → กด \"แพตช์เป็นภาษาไทย\"\n3) เปิดไฟล์ .cue ที่ได้ด้วย DuckStation หรือ RetroArch แล้วลุยได้เลย! (โปรแกรมจะตรวจไฟล์ให้อัตโนมัติ ไฟล์ต้นฉบับไม่ถูกแก้ไข)\n\n📥 ดาวน์โหลดแพตช์ (ประมาณ 250 MB): aHR0cHM6Ly93d3cubWVkaWFmaXJlLmNvbS9maWxlL3M4ZndneXI1anc0b3d5by9Qb2xpY2VuYXV0c19UaGFpX1BhdGNoX3YxLjAuZXhlL2ZpbGU=\n\n🙏 เครดิต แปลไทย: kai16 / AjPed เกมต้นฉบับ © 1994 1996 KONAMI สงวนลิขสิทธิ์ทุกประการ\n⚠️ แจกฟรี ห้ามจำหน่าย แพตช์นี้ไม่มีไฟล์เกม กรุณาใช้แผ่นที่คุณเป็นเจ้าของ ห้ามนำไปขายหรือแจกไฟล์เกมที่แพตช์แล้ว เจอคำแปลแปลก ๆ หรือบั๊กตรงไหน คอมเมนต์บอกได้เลยครับ จะได้แก้ในเวอร์ชันถัดไป\n\n💬 #Policenauts #โพลิสนอทส์ #HideoKojima #PS1 #PlayStation #เกมแปลไทย #แพตช์ไทย #RetroGaming #Konami #เกมเก่า"
   },
@@ -55,15 +97,21 @@
     "title": "Marvel Super Heroes: War of the Gems",
     "subtitle": "แพตช์ภาษาไทย · รวมพลังเหล่าซูเปอร์ฮีโร่",
     "cover": "MARVEL",
-    "platforms": ["Super Famicom / SNES"],
+    "platforms": [
+      "Super Famicom / SNES"
+    ],
     "type": "แพตช์ภาษาไทย",
     "format": "ZIP · Patcher",
     "date": "2026-11-13",
-    "images": ["marvel-facebook-post.jpg"],
+    "images": [
+      "marvel-facebook-post.jpg"
+    ],
     "source": "https://www.facebook.com/61593778466354/posts/122127669903459282",
     "download": "https://www.mediafire.com/file/ss9kb8hgtj2sruj/Marvel_Thai_Patcher_kai16_ajped.zip/file",
     "description": "เกมแอ็กชันจาก Capcom บน Super Famicom / SNES นำทีมฮีโร่ Marvel ต่อกรกับ Thanos",
-    "notes": ["แพตช์เท่านั้น ไม่รวม ROM เกมต้นฉบับ"],
+    "notes": [
+      "แพตช์เท่านั้น ไม่รวม ROM เกมต้นฉบับ"
+    ],
     "credit": "kai16 / AjPed",
     "postText": "🎮🔥 MARVEL SUPER HEROES: WAR OF THE GEMS (SFC) — แพตช์ภาษาไทย 🇹🇭\n\n💥 ถึงเวลารวมพลังเหล่าซูเปอร์ฮีโร่ Marvel ในเกมแอ็กชันสุดคลาสสิกจากยุค Super Famicom! ร่วมผจญภัยไปกับ Spider-Man, Iron Man, Captain America, Wolverine และ Hulk เพื่อหยุดยั้งแผนการของ Thanos และตามหาอัญมณีแห่งพลังทั้ง 6 เม็ด!\n\n✨ แพตช์แปลภาษาไทยโดย kai16 / AjPed\n\n🎮 รายละเอียดเกม\n* ชื่อเกม: Marvel Super Heroes: War of the Gems\n* เครื่อง: Super Famicom / SNES\n* ผู้พัฒนาและจัดจำหน่าย: CAPCOM\n* แนวเกม: Action / Platformer\n* ปีที่วางจำหน่าย: 1996\n* ภาษา: ไทย (แพตช์แฟนเมด)\n\n🇹🇭 สัมผัสเกม Marvel ระดับตำนานในรูปแบบภาษาไทย พร้อมย้อนวันวานกับกราฟิกและระบบการเล่นสไตล์ 16-bit!\n\n❤️ แจกฟรี ห้ามจำหน่าย แพตช์นี้จัดทำขึ้นโดยแฟนเกมเพื่อการศึกษาและอนุรักษ์เกมคลาสสิก ไม่มีส่วนเกี่ยวข้องกับ CAPCOM หรือ MARVEL\n\n📥 ดาวน์โหลดแพตช์ภาษาไทย: aHR0cHM6Ly93d3cubWVkaWFmaXJlLmNvbS9maWxlL3NzOWtiOGhndGoyc3J1ai9NYXJ2ZWxfVGhhaV9QYXRjaGVyX2thaTE2X2FqcGVkLnppcC9maWxl\n\n⚠️ แจกเฉพาะไฟล์แพตช์ ไม่รวมไฟล์ ROM ของเกม ผู้ใช้งานต้องจัดหาเกมต้นฉบับอย่างถูกต้องด้วยตนเอง\n\n#MarvelSuperHeroes #WarOfTheGems #SFC #SNES #SuperFamicom #เกมภาษาไทย #แพตช์ภาษาไทย #เกมเก่า #RetroGaming #CAPCOM #kai16 #AjPed"
   },
@@ -72,14 +120,20 @@
     "title": "The Legend of Zelda: Majora’s Mask",
     "subtitle": "บทสรุปภาษาไทย 128 หน้า",
     "cover": "MAJORA’S MASK",
-    "platforms": ["Nintendo 64"],
+    "platforms": [
+      "Nintendo 64"
+    ],
     "type": "คู่มือ PDF",
     "format": "PDF · 128 หน้า",
-    "images": ["zelda-facebook-post.jpg"],
+    "images": [
+      "zelda-facebook-post.jpg"
+    ],
     "source": "https://www.facebook.com/61593778466354/posts/122127096735459282",
     "download": "https://www.mediafire.com/file/3iknqltrc4nvf7k/Zelda_Majoras_Mask_N64_Thai_128p.pdf/file",
     "description": "คู่มือสไตล์นิตยสารสำหรับฉบับ Nintendo 64 ครอบคลุมเส้นทางหลัก ดันเจียน หน้ากาก และเควสต์",
-    "notes": ["มีสปอยล์จนจบเกม"],
+    "notes": [
+      "มีสปอยล์จนจบเกม"
+    ],
     "credit": "คู่มือแฟนจัดทำ",
     "postText": "🎭🌙 แจกฟรี! บทสรุป Zelda: Majora’s Mask ภาษาไทย 128 หน้า 📖\n\nก่อนดวงจันทร์ตก… ยังมีคนใน Termina รอให้เราไปช่วย! ใครกำลังเล่นหรืออยากกลับไปผจญภัยกับ Link อีกครั้ง จัดให้แบบนิตยสารเฉลยเกม พร้อมภาพเกมและอาร์ตเวิร์ก เปิดอ่านประกอบระหว่างเล่นได้เลยครับ\n\n✨ ภายในเล่มมีครบทั้ง\n⚔️ เส้นทางหลักตั้งแต่เริ่มเกมจนถึงศึกกับ Majora\n🏰 วิธีผ่านดันเจียนและเทคนิคบอสทั้งสี่\n⏳ ระบบเวลาสามวัน การย้อนเวลา และวิธีเซฟ\n🎭 วิธีเก็บหน้ากากทั้ง 24 ใบ\n❤️ เช็กลิสต์หัวใจครบ 52 ชิ้น\n🧚 ตำแหน่ง Stray Fairies ในวิหารทั้ง 60 ตัว\n💌 เควสต์ Anju–Kafei แยกวัน พร้อมเตือนนัดสำคัญ\n🗡️ ขวดทั้งหก ดาบ Gilded และงานเสริมต่าง ๆ\n\n📥 ดาวน์โหลดฟรีที่นี่ 👉 aHR0cHM6Ly93d3cubWVkaWFmaXJlLmNvbS9maWxlLzNpa25xbHRyYzRudmY3ay9aZWxkYV9NYWpvcmFzX01hc2tfTjY0X1RoYWlfMTI4cC5wZGYvZmlsZQ== (Decode Base64)\n\n📌 อิง ฉบับ Nintendo 64 ดั้งเดิม และมีสปอยล์จนจบเกม คู่มือแฟนจัดทำ พร้อมเครดิตแหล่งข้อมูลและภาพภายในเล่ม เกมและภาพประกอบเป็นลิขสิทธิ์ Nintendo เซฟโพสต์ไว้เปิดดูตอนเล่น หรือส่งต่อให้เพื่อนที่กำลังหลงอยู่ในวังวนสามวันได้เลยครับ 💜\n\n#Zelda #MajorasMask #Nintendo64 #บทสรุปเกม #บทสรุปภาษาไทย #แจกฟรี #เกมย้อนยุค"
   }
