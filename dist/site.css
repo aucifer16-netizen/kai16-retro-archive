@@ -116,6 +116,16 @@ dd { margin: 0; }
 .post-text { padding: 18px; white-space: pre-wrap; overflow-wrap: anywhere; }
 .no-image { margin: 0; padding: 25px 18px; color: var(--muted); text-align: center; }
 .no-image a { color: var(--lime); font-weight: bold; }
+.inventory { margin: 30px 0 48px; padding: 18px; }
+.inventory-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+.inventory-list article { min-width: 0; padding: 14px; border: 1px solid var(--line); border-radius: 8px; background: var(--panel); }
+.inventory-list h3 { margin: 0 0 6px; font-size: 1rem; }
+.inventory-list ul, .local-files ul { padding-left: 20px; }
+.inventory-list li, .local-files li { margin: 7px 0; overflow-wrap: anywhere; }
+.inventory code, .local-files code { font-size: .78rem; white-space: normal; }
+.local-files { margin-bottom: 40px; padding: 18px; }
+.local-files-note { color: var(--muted); margin-top: 0; }
+@media (max-width: 610px) { .inventory-list { grid-template-columns: 1fr; } }
 @media (max-width: 850px) {
   .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .wrap { width: calc(100% - 44px); }

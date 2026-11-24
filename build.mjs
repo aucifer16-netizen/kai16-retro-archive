@@ -1,6 +1,7 @@
 import { mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 
 const games = JSON.parse(readFileSync(new URL('./games.json', import.meta.url), 'utf8'));
+const modFiles = JSON.parse(readFileSync(new URL('./mod-inventory.json', import.meta.url), 'utf8'));
 const facebook = 'https://www.facebook.com/people/แปล-mod-by-kai16/61593778466354/';
 const platforms = ['Super Famicom / SNES', 'Nintendo 64', 'PlayStation', 'PlayStation 5', 'Xbox Series X|S'];
 const escape = value => String(value).replace(/[&<>"']/g, character => ({
@@ -37,6 +38,23 @@ function card(game) {
 <span class="card-open">ดูรายละเอียด</span></div></a></article>`;
 }
 
+function normalizedTitle(value) {
+  return value.toLocaleLowerCase('th').replace(/[’']/g, '').replace(/[^\p{L}\p{N}]+/gu, '');
+}
+
+function filesForGame(game) {
+  const title = normalizedTitle(game.title);
+  return modFiles.find(entry => {
+    const entryTitle = normalizedTitle(entry.title);
+    return title === entryTitle || title.includes(entryTitle) || entryTitle.includes(title);
+  });
+}
+
+function filesMarkup(entry) {
+  if (!entry) return '';
+  return `<section class="window local-files"><h2>พาธไฟล์ในเครื่อง D:\\mod</h2><p class="local-files-note">พาธนี้อ้างอิงจากเครื่องที่เก็บไฟล์ ผู้เข้าชมเว็บใช้เปิดไฟล์ในเครื่องของผู้ดูแลไม่ได้</p><ul>${entry.files.map(file => `<li><code>${escape(file)}</code></li>`).join('')}</ul></section>`;
+}
+
 function detail(game) {
   const gallery = game.images?.length ? game.images.map((image, index) => `
 <figure><a href="../../media/${image}" aria-label="เปิดภาพเต็ม ภาพที่ ${index + 1}"><img src="../../media/${image}" alt="${escape(game.title)} ภาพที่ ${index + 1}"></a></figure>`).join('')
@@ -52,10 +70,12 @@ function detail(game) {
 <div class="actions">${game.download ? `<a class="button primary" href="${escape(game.download)}">${game.type === 'คู่มือ PDF' ? 'ดาวน์โหลดคู่มือ PDF' : 'ดาวน์โหลดแพตช์'}</a>` : ''}
 <a class="button" href="${escape(game.source)}">${game.source.includes('facebook.com') ? 'ดูโพสต์ต้นฉบับ' : 'ดูแหล่งข้อมูลและทางไปหน้าแจก'}</a></div>
 </div></section></div>
-<section class="window original-post"><h2>ข้อความจากโพสต์ Facebook ต้นฉบับ</h2><div class="post-text">${escape(game.postText || 'ยังไม่มีข้อความต้นฉบับในข้อมูลเกมนี้')}</div></section>`, '../../', '', '../../index.html');
+<section class="window original-post"><h2>ข้อความจากโพสต์ Facebook ต้นฉบับ</h2><div class="post-text">${escape(game.postText || 'ยังไม่มีข้อความต้นฉบับในข้อมูลเกมนี้')}</div></section>
+${filesMarkup(filesForGame(game))}`, '../../', '', '../../index.html');
 }
 
 const filters = ['ทั้งหมด', ...platforms].map((platform, index) => `<button type="button" data-platform="${index ? escape(platform) : ''}" aria-pressed="${index === 0}">${escape(platform)}</button>`).join('');
+const inventoryMarkup = `<section class="window inventory"><div class="library-head"><h2>พาธไฟล์เกมใน D:\\mod</h2><p>${modFiles.length} รายการ</p></div><p class="local-files-note">รายการนี้รวบรวมพาธในเครื่องสำหรับใช้อ้างอิงบนเครื่องผู้ดูแลเว็บไซต์ พาธเหล่านี้ไม่ใช่ลิงก์ดาวน์โหลดสำหรับผู้เข้าชม</p><div class="inventory-list">${modFiles.map(entry => `<article><h3>${escape(entry.title)}</h3><p class="platform">${escape(entry.platform)}</p><ul>${entry.files.map(file => `<li><code>${escape(file)}</code></li>`).join('')}</ul></article>`).join('')}</div></section>`;
 
 writeFileSync('dist/index.html', page('คลังเกมแปลไทย | KAI16.ARCHIVE', `
 <section class="console">
@@ -70,6 +90,7 @@ writeFileSync('dist/index.html', page('คลังเกมแปลไทย |
 <label class="search"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="ค้นหาชื่อเกม" aria-label="ค้นหาชื่อเกม"></label></div>
 <div id="game-list" class="grid">${games.map(card).join('')}</div>
 <p id="empty" class="empty" hidden>ไม่พบเกมที่ตรงกับตัวกรอง</p>
+${inventoryMarkup}
 </section>`, '', '<script src="catalog.js" defer></script>'));
 
 for (const game of games) {
