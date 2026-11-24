@@ -13,7 +13,7 @@
       "zelda-patch-facebook.jpg"
     ],
     "source": "https://www.facebook.com/permalink.php?story_fbid=pfbid0237KLcVqfL1w2Mis9m4YciupZb7bThM2mSAXoEqhmTVPxjycSWsFSM7CJC8yuN9f5l&id=61593778466354",
-    "download": "../../downloads/ZeldaMMThaiPatcher.exe",
+    "download": "https://raw.githubusercontent.com/aucifer16-netizen/kai16-retro-archive/main/downloads/ZeldaMMThaiPatcher.exe",
     "description": "แปลบทสนทนา เมนู โลโก้และชื่อสถานที่เป็นภาษาไทย",
     "notes": [
       "ใช้เกมต้นฉบับญี่ปุ่น รุ่น 1.0"
@@ -59,7 +59,7 @@
       "gta-facebook-post.jpg"
     ],
     "source": "https://www.facebook.com/permalink.php?story_fbid=pfbid02zrUu7F8PsMxx3bbTZjcStitn7rE6ipnHFKJyBbU3cdjUdmNPcM2dgHvQzhLPwzWtl&id=61593778466354",
-    "download": "../../downloads/GTA_VI_Thai_200p.pdf",
+    "download": "https://raw.githubusercontent.com/aucifer16-netizen/kai16-retro-archive/main/downloads/GTA_VI_Thai_200p.pdf",
     "description": "คู่มือภาษาไทยตั้งแต่บทนำถึงฉากจบ มีสารบัญแบบคลิกได้และรายละเอียดสำหรับเก็บ 100%",
     "notes": [
       "มีสปอยล์ช่วงท้ายและฉากจบ"
@@ -151,7 +151,7 @@
       "zelda-facebook-post.jpg"
     ],
     "source": "https://www.facebook.com/61593778466354/posts/122127096735459282",
-    "download": "../../downloads/Zelda_Majoras_Mask_N64_Thai_128p.pdf",
+    "download": "https://raw.githubusercontent.com/aucifer16-netizen/kai16-retro-archive/main/downloads/Zelda_Majoras_Mask_N64_Thai_128p.pdf",
     "description": "คู่มือสไตล์นิตยสารสำหรับฉบับ Nintendo 64 ครอบคลุมเส้นทางหลัก ดันเจียน หน้ากาก และเควสต์",
     "notes": [
       "มีสปอยล์จนจบเกม"
@@ -176,11 +176,11 @@
     "downloads": [
       {
         "label": "ดาวน์โหลดแพตช์ภาษาไทย",
-        "href": "../../downloads/ZeldaThaiPatcher.exe"
+        "href": "https://raw.githubusercontent.com/aucifer16-netizen/kai16-retro-archive/main/downloads/ZeldaThaiPatcher.exe"
       },
       {
         "label": "ดาวน์โหลดบทสรุป PDF",
-        "href": "../../downloads/Zelda_Ocarina_of_Time_N64_Thai_100p.pdf"
+        "href": "https://raw.githubusercontent.com/aucifer16-netizen/kai16-retro-archive/main/downloads/Zelda_Ocarina_of_Time_N64_Thai_100p.pdf"
       }
     ],
     "description": "โพสต์แจกแพตช์ภาษาไทยและบทสรุปเกม Nintendo 64 ในโพสต์เดียว",
@@ -206,7 +206,7 @@
     "downloads": [
       {
         "label": "ดาวน์โหลดบทสรุป PDF",
-        "href": "../../downloads/FF_Resonance_Thai_100p.pdf"
+        "href": "https://raw.githubusercontent.com/aucifer16-netizen/kai16-retro-archive/main/downloads/FF_Resonance_Thai_100p.pdf"
       }
     ],
     "description": "คู่มือภาษาไทยรวมเส้นทางเนื้อเรื่อง ระบบต่อสู้ ตัวละคร เควสต์เสริม อาวุธ และงานหลังจบเกม",
@@ -238,7 +238,7 @@
     "downloads": [
       {
         "label": "ดาวน์โหลดบทสรุป PDF",
-        "href": "../../downloads/Terranigma_Thai_100p.pdf"
+        "href": "https://raw.githubusercontent.com/aucifer16-netizen/kai16-retro-archive/main/downloads/Terranigma_Thai_100p.pdf"
       },
       {
         "label": "ดาวน์โหลดแพตช์จาก MediaFire",
@@ -274,7 +274,7 @@
     "downloads": [
       {
         "label": "ดาวน์โหลดแพตช์ภาษาไทย",
-        "href": "../../downloads/SoulOfTheSamurai_Thai_Patcher.exe"
+        "href": "https://raw.githubusercontent.com/aucifer16-netizen/kai16-retro-archive/main/downloads/SoulOfTheSamurai_Thai_Patcher.exe"
       },
       {
         "label": "ดาวน์โหลดบทสรุป PDF",
@@ -467,11 +467,11 @@
     "downloads": [
       {
         "label": "ดาวน์โหลดตัวติดตั้งแพตช์",
-        "href": "../../downloads/Doraemon3_Thai_Patcher.exe"
+        "href": "https://raw.githubusercontent.com/aucifer16-netizen/kai16-retro-archive/main/downloads/Doraemon3_Thai_Patcher.exe"
       },
       {
         "label": "ดาวน์โหลดไฟล์ IPS",
-        "href": "../../downloads/Doraemon3_TH_v1.2.ips"
+        "href": "https://raw.githubusercontent.com/aucifer16-netizen/kai16-retro-archive/main/downloads/Doraemon3_TH_v1.2.ips"
       },
       {
         "label": "ดาวน์โหลดบทสรุป PDF",
@@ -540,7 +540,7 @@
       "panzer-bandit-facebook.jpg"
     ],
     "source": "https://www.facebook.com/permalink.php?story_fbid=pfbid0m9S7CHCNcNXSLLDDg5tqMKYcj2zAoUoZvgv9BcU5UGRoUGDWws5ZhGftrjqnwiRGl&id=61593778466354",
-    "download": "../../downloads/PanzerBandit_TH_Patcher.exe",
+    "download": "https://raw.githubusercontent.com/aucifer16-netizen/kai16-retro-archive/main/downloads/PanzerBandit_TH_Patcher.exe",
     "description": "เกมแอ็กชันบน PlayStation ฉบับแพตช์ภาษาไทยและเสียงไทย",
     "notes": [
       "ไฟล์แพตช์ไม่รวมเกมต้นฉบับ"
