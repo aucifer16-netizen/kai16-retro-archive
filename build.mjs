@@ -65,8 +65,12 @@ function detail(game) {
   const sources = [game.source, ...(game.relatedPosts || []).map(post => post.source)].filter(Boolean);
   const postTexts = [
     { label: 'โพสต์หลัก', text: game.postText },
-    ...(game.relatedPosts || []).map(post => ({ label: post.label, text: post.postText }))
+    ...(game.relatedPosts || []).map(post => ({ ...post, text: post.postText }))
   ].filter(post => post.text);
+  const postImages = post => {
+    const images = (post.images || []).filter(image => existsSync(new URL(`./dist/media/${image}`, import.meta.url)));
+    return images.length ? `<div class="gallery">${images.map((image, index) => `<figure><a href="../../media/${image}" aria-label="เปิดภาพโพสต์ ${index + 1}"><img src="../../media/${image}" alt="${escape(post.label)} ภาพที่ ${index + 1}"></a></figure>`).join('')}</div>` : '';
+  };
   const images = availableImages(game);
   const gallery = images.length ? images.map((image, index) => `
 <figure><a href="../../media/${image}" aria-label="เปิดภาพเต็ม ภาพที่ ${index + 1}"><img src="../../media/${image}" alt="${escape(game.title)} ภาพที่ ${index + 1}"></a></figure>`).join('')
@@ -82,7 +86,7 @@ function detail(game) {
 <div class="actions">${downloads.map((item, index) => `<a class="button ${index === 0 ? 'primary' : ''}" href="${escape(item.href)}">${escape(item.label)}</a>`).join('')}
 ${sources.map((source, index) => `<a class="button" href="${escape(source)}">${escape(game.relatedPosts?.[index - 1]?.label || 'ดูโพสต์ต้นฉบับ')}</a>`).join('')}</div>
 </div></section></div>
-${postTexts.map(post => `<section class="window original-post"><h2>${escape(post.label || 'ข้อความโพสต์จาก Facebook')}</h2><div class="post-text">${escape(post.text)}</div></section>`).join('')}
+${postTexts.map(post => `<section class="window original-post"><h2>${escape(post.label || 'ข้อความโพสต์จาก Facebook')}</h2><div class="post-text">${escape(post.text)}</div>${postImages(post)}</section>`).join('')}
 ${filesMarkup(filesForGame(game))}`, '../../', '', '../../index.html');
 }
 
