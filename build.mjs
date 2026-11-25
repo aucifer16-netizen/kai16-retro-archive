@@ -63,11 +63,14 @@ function filesMarkup(entry) {
 function detail(game) {
   const downloads = game.downloads?.length ? game.downloads : game.download ? [{ label: game.type === 'คู่มือ PDF' ? 'ดาวน์โหลดคู่มือ PDF' : 'ดาวน์โหลดแพตช์', href: game.download }] : [];
   const sources = [game.source, ...(game.relatedPosts || []).map(post => post.source)].filter(Boolean);
+  const postTexts = [
+    { label: 'โพสต์หลัก', text: game.postText },
+    ...(game.relatedPosts || []).map(post => ({ label: post.label, text: post.postText }))
+  ].filter(post => post.text);
   const images = availableImages(game);
   const gallery = images.length ? images.map((image, index) => `
 <figure><a href="../../media/${image}" aria-label="เปิดภาพเต็ม ภาพที่ ${index + 1}"><img src="../../media/${image}" alt="${escape(game.title)} ภาพที่ ${index + 1}"></a></figure>`).join('')
-    : `<p class="no-image">ภาพทั้งหมดอยู่ในโพสต์ต้นฉบับ <a href="${escape(game.source)}">เปิดโพสต์ Facebook</a></p>`;
-  const embeds = sources.map((source, index) => `<div class="facebook-embed"><iframe title="โพสต์ Facebook ต้นฉบับ ${escape(game.title)} ${index + 1}" src="https://www.facebook.com/plugins/post.php?href=${encodeURIComponent(source)}&show_text=true&width=500" width="500" height="720" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe></div>`).join('');
+    : `<p class="no-image">ไม่มีรูปภาพที่คัดลอกไว้จากโพสต์นี้ <a href="${escape(game.source)}">เปิดโพสต์ Facebook</a></p>`;
   return page(`${game.title} | KAI16.ARCHIVE`, `
 <div class="back"><a href="../../index.html">กลับไปคลังเกม</a></div>
 <div class="detail-head"><p class="platform">${game.platforms.map(escape).join(' / ')}</p><h1>${escape(game.title)}</h1><p class="detail-subtitle">${escape(game.subtitle)}</p></div>
@@ -79,7 +82,7 @@ function detail(game) {
 <div class="actions">${downloads.map((item, index) => `<a class="button ${index === 0 ? 'primary' : ''}" href="${escape(item.href)}">${escape(item.label)}</a>`).join('')}
 ${sources.map((source, index) => `<a class="button" href="${escape(source)}">${escape(game.relatedPosts?.[index - 1]?.label || 'ดูโพสต์ต้นฉบับ')}</a>`).join('')}</div>
 </div></section></div>
-<section class="window original-post"><h2>โพสต์ต้นฉบับจาก Facebook</h2>${game.postText ? `<div class="post-text">${escape(game.postText)}</div>` : ''}${embeds || `<p class="local-files-note">เปิดโพสต์ต้นฉบับเพื่อดูข้อความและรูปภาพจากเพจ</p>`}</section>
+${postTexts.map(post => `<section class="window original-post"><h2>${escape(post.label || 'ข้อความโพสต์จาก Facebook')}</h2><div class="post-text">${escape(post.text)}</div></section>`).join('')}
 ${filesMarkup(filesForGame(game))}`, '../../', '', '../../index.html');
 }
 
